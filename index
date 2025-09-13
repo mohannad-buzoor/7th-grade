@@ -1,0 +1,1517 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج تحضير درس - العلوم الصف الرابع</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: #f8fafc;
+        }
+        @media print {
+            body {
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+            .no-print {
+                display: none;
+            }
+            .a4-landscape {
+                box-shadow: none;
+                margin: 0;
+                page-break-after: always;
+            }
+            [contenteditable="true"] {
+                outline: none !important;
+                border: none !important;
+            }
+        }
+        .a4-landscape {
+            width: 29.7cm;
+            min-height: 21cm;
+            padding: 1.5cm;
+            margin: 2rem auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+        .form-field {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #9ca3af;
+            padding-bottom: 2px;
+            margin-left: 1rem;
+            flex-grow: 1;
+        }
+        .form-label {
+            font-weight: 700;
+            white-space: nowrap;
+        }
+        .form-input {
+            width: 100%;
+            min-height: 24px;
+            font-weight: 500;
+            padding-right: 0.25rem;
+        }
+        .main-table {
+            border: 2px solid #1f2937;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .main-table th, .main-table td {
+            border: 1px solid #4b5563;
+            padding: 0.5rem;
+            text-align: right;
+            vertical-align: top;
+        }
+        .procedures-table td {
+             height: 50px;
+        }
+        .main-table th {
+            background-color: #f3f4f6;
+            font-weight: 700;
+            height: auto;
+        }
+        .header-in-cell {
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .main-table ul {
+            padding-right: 1.5rem;
+        }
+        .main-table li {
+            margin-bottom: 0.25rem;
+        }
+        [contenteditable="true"] {
+            outline: 1px dashed #d1d5db;
+        }
+        [contenteditable="true"]:focus {
+            outline: 2px solid #4f46e5;
+            background-color: #eef2ff;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- الدرس الأول: التصنيف -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">تصنيف النباتات والحيوانات</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">التصنيف</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">يذكر أوجه التشابه والاختلاف بين بعض الكائنات الحية.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يوضح الطالب المقصود بمفهوم التصنيف.</li>
+                            <li contenteditable="true">أن يبين أهمية تصنيف الكائنات الحية.</li>
+                            <li contenteditable="true">أن يستخدم مفتاح التصنيف في تعرف الكائنات الحية.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يعرض صوراً لكائنات حية مختلفة ويوجه أسئلة حولها.</td>
+                        <td contenteditable="true">يتأمل الصور ويجيب عن أسئلة المعلم.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير</td>
+                        <td contenteditable="true">يقود نشاط (تصنيف الأزرار)، ويوضح مفهوم التصنيف وأهميته، ويشرح كيفية استخدام مفتاح التصنيف.</td>
+                        <td contenteditable="true">يشارك في النشاط، يستنتج أهمية التصنيف، ويتابع الشرح.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يوجه الطلبة لتصميم مفتاح تصنيف بسيط لمجموعة حيوانات (نشاط الحيوان اللغز).</td>
+                        <td contenteditable="true">يصمم مفتاح تصنيف بسيط ويعرضه على زملائه.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يطرح أسئلة مراجعة الدرس للتأكد من فهم المفاهيم.</td>
+                        <td contenteditable="true">يجيب عن أسئلة المراجعة ويناقش إجاباته.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+
+    <!-- الدرس الثاني: تصنيف النباتات -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">تصنيف النباتات والحيوانات</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">تصنيف النباتات</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">يعرف أن النباتات كائنات حية تتكاثر بالبذور.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يصنف النباتات إلى مجموعات (زهرية ولازهرية).</li>
+                            <li contenteditable="true">أن يميز بين النباتات ذات الفلقة وذات الفلقتين.</li>
+                            <li contenteditable="true">أن يعطي أمثلة على نباتات تنتمي لكل مجموعة.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يعرض صوراً لنباتات مختلفة (صنوبر، تفاح) ويسأل عن طرق تكاثرها.</td>
+                        <td contenteditable="true">يلاحظ الصور ويناقش طرق تكاثر النباتات.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير</td>
+                        <td contenteditable="true">يشرح مفهوم النباتات الزهرية واللازهرية، والنباتات ذات الفلقة والفلقتين مع عرض أمثلة وبذور.</td>
+                        <td contenteditable="true">يستمع للشرح، يفحص البذور، ويقارن بين المجموعات.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يوجه الطلبة لتنفيذ نشاط تصنيف نباتات من بيئتهم.</td>
+                        <td contenteditable="true">يجمع معلومات عن نباتات ويصنفها في مجموعات حسب خصائصها.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يطرح أسئلة مراجعة الدرس ويطلب تصنيف نباتات معطاة.</td>
+                        <td contenteditable="true">يجيب عن الأسئلة ويشارك في حل تمرين التصنيف.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+
+    <!-- الدرس الثالث: تصنيف الحيوانات -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">تصنيف النباتات والحيوانات</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">تصنيف الحيوانات</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">يعدد أسماء حيوانات مختلفة من بيئته.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يذكر خصائص المجموعات الرئيسية للحيوانات (الثدييات، الزواحف، الحشرات، الأسماك، الطيور، البرمائيات).</li>
+                            <li contenteditable="true">أن يصنف حيوانات ضمن مجموعاتها بناءً على خصائصها.</li>
+                            <li contenteditable="true">أن يقارن بين مجموعتين من الحيوانات من حيث صفاتها.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يعرض صوراً لحيوانات متنوعة (قرد، أفعى، نملة، سمكة، بطريق، ضفدع) ويسأل عن صفاتها.</td>
+                        <td contenteditable="true">يصف الحيوانات في الصور ويذكر ما يعرفه عنها.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير</td>
+                        <td contenteditable="true">يشرح خصائص כל مجموعة من مجموعات الحيوانات الست، مستعيناً بالصور والأمثلة من الكتاب.</td>
+                        <td contenteditable="true">يدون الخصائص المميزة لكل مجموعة ويطرح أسئلة.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يوجه الطلبة لتنفيذ نشاط (تصنيف الحيوانات) حيث يختارون حيوانات ويحددون خصائصها.</td>
+                        <td contenteditable="true">يختار 10 حيوانات، يعمل بطاقات لها، ويصنفها في مجموعات.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يطرح أسئلة مراجعة الدرس ويطلب تصنيف قائمة من الحيوانات.</td>
+                        <td contenteditable="true">يقارن بين الثدييات والطيور ويصنف الحيوانات المعطاة.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+
+    <!-- الوحدة 1: الإثراء والتوسع -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">تصنيف النباتات والحيوانات</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">الإثراء والتوسع: خطر الانقراض</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">تعرف خصائص الزواحف.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يقرأ الطالب النص الإثرائي ويفهم محتواه.</li>
+                            <li contenteditable="true">أن يحلل الرسم البياني لتحديد أسباب إصابة السلاحف البحرية.</li>
+                            <li contenteditable="true">أن يقترح طرائق لحماية الكائنات الحية المهددة بالانقراض.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يسأل الطلبة: هل سمعتم عن حيوانات مهددة بالانقراض؟ لماذا قد يحدث ذلك؟</td>
+                        <td contenteditable="true">يشارك بأمثلة يعرفها ويناقش الأسباب المحتملة.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير</td>
+                        <td contenteditable="true">يوجه الطلبة لقراءة النص حول السلاحف البحرية، ويقود نقاشاً لتحليل الرسم البياني.</td>
+                        <td contenteditable="true">يقرأ النص، ويستنتج من الرسم البياني أن معظم إصابات السلاحف سببها الأنشطة البشرية.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يطلب من الطلبة الإجابة عن الأسئلة المرفقة بالنص وطرح حلول لحماية السلاحف.</td>
+                        <td contenteditable="true">يناقش الأسئلة في مجموعات ويقترح حلولاً مثل تقليل النفايات وسن قوانين للصيد.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يطلب من كل مجموعة عرض أهم الأخطار والحلول التي توصلت إليها.</td>
+                        <td contenteditable="true">يلخص ويعرض النتائج التي توصلت إليها مجموعته.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+
+    <!-- الوحدة 1: مراجعة الوحدة -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">تصنيف النباتات والحيوانات</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">مراجعة الوحدة (1)</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">دراسة جميع دروس الوحدة.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يتذكر الطالب المفاهيم والمصطلحات الرئيسية في الوحدة.</li>
+                            <li contenteditable="true">أن يجيب عن أسئلة متنوعة تقيس فهمه للوحدة.</li>
+                            <li contenteditable="true">أن يطبق ما تعلمه في أنشطة تقويم الأداء.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يقوم بمراجعة سريعة لأهم أفكار الوحدة: التصنيف، مجموعات النباتات، ومجموعات الحيوانات.</td>
+                        <td contenteditable="true">يستذكر المفاهيم الأساسية ويشارك في النقاش.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير (التطبيق)</td>
+                        <td contenteditable="true">يوجه الطلبة لحل أسئلة المراجعة (المفاهيم والمصطلحات، أجيب عن الأسئلة، الاختيار من متعدد) بشكل فردي ثم جماعي.</td>
+                        <td contenteditable="true">يحل الأسئلة، ويناقش إجاباته مع زملائه، ويصحح أخطاءه.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يشرف على تنفيذ نشاط "تقويم الأداء: ألبومي المصور".</td>
+                        <td contenteditable="true">يجمع صوراً لنباتات ويصنفها في ألبوم مع تسجيل خصائصها.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يناقش نتائج نشاط تقويم الأداء ويقدم تغذية راجعة ختامية حول أداء الطلبة في الوحدة.</td>
+                        <td contenteditable="true">يعرض ألبومه على زملائه ويقيم تعلمه في الوحدة.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+    
+    <!-- الوحدة 2، الدرس 1 -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">تكاثر الكائنات الحية ودورات حياتها</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">تكاثر النباتات ودورات حياتها</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">يعرف أن النباتات تنمو وتتكاثر.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يوضح مفهوم التكاثر والنمو ودورة الحياة.</li>
+                            <li contenteditable="true">أن يتتبع مراحل دورة حياة نبات زهري ولازهري.</li>
+                            <li contenteditable="true">أن يوضح طرق التكاثر الخضري (الدرنات والأبصال).</li>
+                             <li contenteditable="true">أن يصف أثر البيئة في تكاثر النباتات.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يقود نشاط استكشف (تكاثر نبات الحمص) لمراقبة إنبات البذور.</td>
+                        <td contenteditable="true">يزرع بذور الحمص ويراقب نموها ويسجل ملاحظاته.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير</td>
+                        <td contenteditable="true">يشرح دورة حياة النباتات الزهرية (مغطاة البذور) واللازهرية (معراة البذور)، ويوضح طرق التكاثر الخضري.</td>
+                        <td contenteditable="true">يقارن بين دورات الحياة، ويتعرف على أجزاء الزهرة، ويستوعب مفهوم التكاثر بالدرنات والأبصال.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يناقش أثر العوامل البيئية (الماء، الحرارة، الضوء) على نمو وتكاثر النباتات.</td>
+                        <td contenteditable="true">يربط بين الظروف البيئية وحالة النباتات (نمو سليم، جفاف، صقيع).</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يطرح أسئلة مراجعة الدرس للتأكد من فهم طرق التكاثر ومراحل النمو.</td>
+                        <td contenteditable="true">يجيب عن الأسئلة ويصف مراحل دورة حياة نبات.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+    
+    <!-- الوحدة 2، الدرس 2 -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">تكاثر الكائنات الحية ودورات حياتها</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">تكاثر الحيوانات ودورات حياتها</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">يعرف أن الحيوانات تنمو وتتكاثر وتنتج صغاراً.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يصف التغيرات التي تحدث لصغار الحيوانات أثناء نموها.</li>
+                            <li contenteditable="true">أن يقارن بين دورة حياة حيوان يتكاثر بالولادة (الماعز) وآخر بالبيض (الدجاج).</li>
+                            <li contenteditable="true">أن يتتبع دورة حياة حيوان لا تشبه صغاره آباءها (الضفدع).</li>
+                            <li contenteditable="true">أن يوضح أهمية رعاية الحيوانات لصغارها.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يعرض صوراً لصغار حيوانات (تشبه آباءها وأخرى لا تشبه) ويثير النقاش.</td>
+                        <td contenteditable="true">يقارن بين صغار الحيوانات وآبائها ويصف التغيرات.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير</td>
+                        <td contenteditable="true">يشرح طرق تكاثر الحيوانات (الولادة والبيض)، ويعرض دورات حياة الماعز، الدجاج، والضفدع، ويوضح أهمية رعاية الصغار.</td>
+                        <td contenteditable="true">يتتبع مراحل دورات الحياة المختلفة، ويقارن بينها.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يوجه الطلبة لتنفيذ نشاط (دورة حياة الأرنب) لترتيب مراحل النمو.</td>
+                        <td contenteditable="true">يرتب صور دورة حياة الأرنب بالتسلسل الصحيح.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يطرح أسئلة مراجعة الدرس حول دورة حياة الدجاجة ورعاية الصغار.</td>
+                        <td contenteditable="true">يوضح مراحل دورة حياة الدجاجة ويذكر مظاهر عناية الحيوانات بصغارها.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+    
+    <!-- الوحدة 2: الإثراء والتوسع -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">تكاثر الكائنات الحية ودورات حياتها</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">الإثراء والتوسع: التكاثر بالعقل</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">يعرف مفهوم التكاثر الخضري.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يتعرف على طريقة التكاثر بالعقل كأحد طرق التكاثر الخضري.</li>
+                            <li contenteditable="true">أن يصف خطوات التكاثر بالعقل.</li>
+                            <li contenteditable="true">أن يبحث عن طرق تكاثر خضري أخرى.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يراجع مفهوم التكاثر الخضري ويسأل: كيف يمكننا الحصول على نبات جديد من الساق؟</td>
+                        <td contenteditable="true">يستذكر التكاثر الخضري ويقترح أفكاراً حول زراعة جزء من الساق.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير</td>
+                        <td contenteditable="true">يوجه الطلبة لقراءة النص حول التكاثر بالعقل ويشرح المبدأ الأساسي باستخدام الصور.</td>
+                        <td contenteditable="true">يقرأ النص ويفهم أن العقلة هي جزء من الساق يمكن أن ينمو لنبات كامل.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يكلف الطلبة بالبحث عن طرق أخرى للتكاثر الخضري مثل الترقيد والتطعيم.</td>
+                        <td contenteditable="true">يبحث في مصادر المعرفة عن طرق التكاثر الخضري الأخرى.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">ينظم عرضاً لنتائج بحث الطلبة ومناقشتها.</td>
+                        <td contenteditable="true">يعرض ما توصل إليه من معلومات حول طرق التكاثر الخضري.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+
+    <!-- الوحدة 2: مراجعة الوحدة -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">تكاثر الكائنات الحية ودورات حياتها</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">مراجعة الوحدة (2)</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">دراسة جميع دروس الوحدة.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يتذكر الطالب المفاهيم والمصطلحات الرئيسية في الوحدة.</li>
+                            <li contenteditable="true">أن يجيب عن أسئلة متنوعة تقيس فهمه للوحدة.</li>
+                            <li contenteditable="true">أن يطبق ما تعلمه في أنشطة تقويم الأداء.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يقوم بمراجعة سريعة لأهم أفكار الوحدة: دورات حياة النباتات والحيوانات، وطرق التكاثر.</td>
+                        <td contenteditable="true">يشارك في استذكار المفاهيم والمقارنة بين دورات الحياة المختلفة.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير (التطبيق)</td>
+                        <td contenteditable="true">يوجه الطلبة لحل أسئلة المراجعة (المفاهيم، أجيب عن الأسئلة، الاختيار من متعدد).</td>
+                        <td contenteditable="true">يحل الأسئلة بشكل فردي ثم يشارك في مناقشة الإجابات وتصويبها.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يشرف على تنفيذ نشاط "تقويم الأداء: تكثير نبات بطريقة خضرية".</td>
+                        <td contenteditable="true">يزرع درنات البطاطا ويتابع نموها ك تطبيق عملي على التكاثر الخضري.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يناقش نتائج نشاط تقويم الأداء ويقدم تغذية راجعة ختامية حول أداء الطلبة في الوحدة.</td>
+                        <td contenteditable="true">يستعرض مراحل نمو نباته ويقيم تعلمه في الوحدة.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+    
+     <!-- الوحدة 3، الدرس 1 -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">العلاقات بين الكائنات الحية في النظام البيئي</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">العلاقات بين الكائنات الحية</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">يعرف أن الكائنات الحية تعيش معًا في جماعات.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يعرف علاقات (الافتراس، التنافس، التعايش، التقايض).</li>
+                            <li contenteditable="true">أن يعطي أمثلة على كل نوع من العلاقات.</li>
+                            <li contenteditable="true">أن يوضح دور المحللات في النظام البيئي.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يقود نشاط استكشف (علاقة التنافس) لإظهار أثر التنافس على الحصول على الموارد.</td>
+                        <td contenteditable="true">يشارك في النشاط ويستنتج أثر التنافس على فرصة الحصول على الغذاء.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير</td>
+                        <td contenteditable="true">يشرح العلاقات المختلفة بين الكائنات الحية (الافتراس، التنافس، التعايش، التقايض) مستعيناً بالأمثلة والصور، ويوضح مفهوم المحللات.</td>
+                        <td contenteditable="true">يتعرف على أنواع العلاقات، يميز بينها، ويفهم دور المحللات.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يوجه الطلبة لنشاط المحللات (مراقبة عفن الخبز).</td>
+                        <td contenteditable="true">يلاحظ التغير الذي يطرأ على قطعة الخبز الرطبة ويستنتج دور الكائنات الدقيقة في التحليل.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يطرح أسئلة مراجعة الدرس حول تعريف العلاقات المختلفة.</td>
+                        <td contenteditable="true">يجيب عن الأسئلة ويميز بين أنواع العلاقات.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+    
+    <!-- الوحدة 3، الدرس 2 -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">العلاقات بين الكائنات الحية في النظام البيئي</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">مكونات النظام البيئي</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">يعرف أن النظام البيئي يتكون من كائنات حية ومكونات غير حية.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يفرق بين الجماعة الحيوية والمجتمع الحيوي.</li>
+                            <li contenteditable="true">أن يعرف مفهوم الموطن والنمط الحياتي.</li>
+                            <li contenteditable="true">أن يطبق هذه المفاهيم على نظام بيئي معين.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يعرض صوراً لجماعات حيوية (سرب سمك) ومجتمعات حيوية (غابة) ويطلب المقارنة.</td>
+                        <td contenteditable="true">يصف ما يراه في الصور ويميز بين مجموعة من نفس النوع ومجموعات من أنواع مختلفة.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير</td>
+                        <td contenteditable="true">يوضح بالرسوم التوضيحية الفرق بين الفرد والجماعة والمجتمع والنظام البيئي. يشرح مفهوم الموطن والنمط الحياتي.</td>
+                        <td contenteditable="true">يستوعب التسلسل في تنظيم النظام البيئي، ويميز بين مكان عيش الكائن (الموطن) ودوره (النمط الحياتي).</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يوجه الطلبة لتنفيذ نشاط تصميم نموذج لمكونات نظام بيئي.</td>
+                        <td contenteditable="true">يصمم مجسماً لنظام بيئي ويحدد فيه الجماعات والمجتمعات الحيوية.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يطرح أسئلة مراجعة الدرس حول تعريف المفاهيم الأساسية.</td>
+                        <td contenteditable="true">يجيب عن الأسئلة ويفرق بين المجتمع الحيوي والجماعة الحيوية.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+
+    <!-- الوحدة 3: الإثراء والتوسع -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">العلاقات بين الكائنات الحية في النظام البيئي</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">الإثراء والتوسع: اليوكا</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">يعرف مفهوم علاقة التقايض.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يقرأ الطالب النص ويفهم علاقة التقايض بين نبات اليوكا وعثة اليوكا.</li>
+                            <li contenteditable="true">أن يوضح كيف يستفيد كل كائن حي من الآخر في هذه العلاقة.</li>
+                            <li contenteditable="true">أن يبحث عن مثال آخر لعلاقة تقايض بين نبات وحشرة.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يراجع مفهوم علاقة التقايض ويسأل: كيف يمكن لحشرة ونبات أن يساعدا بعضهما؟</td>
+                        <td contenteditable="true">يستذكر أن التقايض علاقة منفعة متبادلة ويقترح أمثلة (النحلة والزهرة).</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير</td>
+                        <td contenteditable="true">يوجه لقراءة النص حول نبات اليوكا وعثته، ويناقش تفاصيل العلاقة المتبادلة بينهما.</td>
+                        <td contenteditable="true">يقرأ النص ويستنتج أن العثة تلقح النبات مقابل أن تتغذى يرقاتها على جزء من البذور.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يكلف الطلبة بالبحث عن مثال آخر لعلاقة تقايض بين نبات وحشرة (مثل شجرة التين ودبور التين).</td>
+                        <td contenteditable="true">يبحث في مصادر المعرفة عن أمثلة أخرى ويجهز تقريراً بسيطاً.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يطلب من الطلبة عرض نتائج بحثهم وشرح المثال الذي وجدوه.</td>
+                        <td contenteditable="true">يعرض تقريره ويشرح علاقة التقايض التي بحث عنها.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+    
+    <!-- الوحدة 3: مراجعة الوحدة -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">العلاقات بين الكائنات الحية في النظام البيئي</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">مراجعة الوحدة (3)</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">دراسة جميع دروس الوحدة.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يتذكر الطالب المفاهيم والمصطلحات الرئيسية في الوحدة.</li>
+                            <li contenteditable="true">أن يجيب عن أسئلة متنوعة تقيس فهمه للوحدة.</li>
+                            <li contenteditable="true">أن يطبق ما تعلمه في أنشطة تقويم الأداء.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يقوم بمراجعة سريعة لأهم أفكار الوحدة: العلاقات بين الكائنات الحية ومكونات النظام البيئي.</td>
+                        <td contenteditable="true">يشارك في استذكار المفاهيم (افتراس، تنافس، موطن، نمط حياتي...).</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير (التطبيق)</td>
+                        <td contenteditable="true">يوجه الطلبة لحل أسئلة المراجعة (المفاهيم، أجيب عن الأسئلة، الاختيار من متعدد).</td>
+                        <td contenteditable="true">يحل الأسئلة ويناقش إجاباته مع زملائه ويصحح أخطاءه.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يشرف على تنفيذ نشاط "تقويم الأداء: ألعب مع النظام البيئي".</td>
+                        <td contenteditable="true">يصمم لعبة بطاقات لتوضيح العلاقات بين الكائنات الحية.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يناقش نتائج نشاط تقويم الأداء ويقدم تغذية راجعة ختامية حول أداء الطلبة في الوحدة.</td>
+                        <td contenteditable="true">يلعب اللعبة التي صممها مع زملائه ويقيم تعلمه في الوحدة.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+
+     <!-- الوحدة 4، الدرس 1 -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">جسم الإنسان وصحته</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">الحواس الخمس</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">يعدد الحواس الخمس وأعضاءها.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                           <li contenteditable="true">أن يوضح دور الدماغ في معالجة المعلومات من الحواس.</li>
+                           <li contenteditable="true">أن يبين أهمية الحواس في التعلم وحماية الجسم من المخاطر.</li>
+                           <li contenteditable="true">أن يصف كيفية تكامل عمل الحواس معاً.</li>
+                           <li contenteditable="true">أن يقترح ممارسات سليمة للحفاظ على الحواس.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يقود نشاط استكشف (أهمية الحواس) حيث يصف الطلاب مكاناً باستخدام حواسهم.</td>
+                        <td contenteditable="true">يتخيل نفسه في مكان معين ويصف ما يمكن أن يراه ويسمعه ويلمسه ويشمه.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير</td>
+                        <td contenteditable="true">يشرح آلية عمل الحواس واتصالها بالدماغ، ودورها في التعلم والحماية، وتآزرها (تكاملها).</td>
+                        <td contenteditable="true">يستوعب دور الدماغ كوسيط، ويفهم كيف تساعده حواسه على التعلم وتجنب الخطر.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يناقش طرق الحفاظ على سلامة الحواس من خلال تجنب الممارسات الخاطئة.</td>
+                        <td contenteditable="true">يذكر ممارسات خاطئة (اللعب بأجسام حادة، سماع أصوات صاخبة) ويقترح طرق الوقاية.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يطرح أسئلة مراجعة الدرس حول أهمية الحواس في التعلم ودور الدماغ.</td>
+                        <td contenteditable="true">يجيب عن الأسئلة ويصنف الممارسات إلى صحيحة وغير صحيحة.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+    
+    <!-- الوحدة 4، الدرس 2 -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">جسم الإنسان وصحته</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">الصحة الجسمية والنفسية والعاطفية</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">يعرف بعض العادات الصحية مثل تناول الغذاء وممارسة الرياضة.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يوضح مفهوم الصحة الجسمية.</li>
+                            <li contenteditable="true">أن يوضح مفهوم الصحة النفسية والعاطفية.</li>
+                            <li contenteditable="true">أن يصف العلاقة المتبادلة بين الصحة الجسمية والنفسية.</li>
+                            <li contenteditable="true">أن يقترح طرقاً للمحافظة على صحته.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يعرض صورة لأسرة تمارس الرياضة ويسأل عن أهمية ذلك.</td>
+                        <td contenteditable="true">يصف النشاط في الصورة ويناقش أهمية الرياضة للصحة.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير</td>
+                        <td contenteditable="true">يعرف الصحة الجسمية والصحة النفسية والعاطفية، ويشرح التأثير المتبادل بينهما، ويعدد طرق المحافظة على الصحة.</td>
+                        <td contenteditable="true">يميز بين نوعي الصحة، ويفهم كيف يؤثر المرض الجسدي على النفسية والعكس.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يوجه الطلبة لنشاط تصميم برنامج غذائي ورياضي أسبوعي.</td>
+                        <td contenteditable="true">يصمم جدولاً لوجباته ونشاطه الرياضي لمدة أسبوع، مراعياً التنوع والتوازن.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يطرح أسئلة مراجعة الدرس حول العلاقة بين نوعي الصحة.</td>
+                        <td contenteditable="true">يجيب عن الأسئلة ويقدم نصائح لزميل سريع الانفعال.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+
+    <!-- الوحدة 4: الإثراء والتوسع -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">جسم الإنسان وصحته</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">الإثراء والتوسع: متعلمون على الرغم من فقد بعض حواسهم</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">يعرف أهمية الحواس في التعلم.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يتعرف على طريقة برايل للقراءة للمكفوفين.</li>
+                            <li contenteditable="true">أن يقدر قدرة الإنسان على التكيف والتعلم رغم الصعوبات.</li>
+                            <li contenteditable="true">أن يبحث عن طرق تواصل أخرى لذوي الإعاقة (لغة الإشارة).</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يسأل الطلبة: كيف يمكن لشخص لا يرى أن يقرأ كتاباً؟</td>
+                        <td contenteditable="true">يفكر ويقترح حلولاً ممكنة (الاستماع، اللمس).</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير</td>
+                        <td contenteditable="true">يوجه لقراءة النص حول نظام برايل، ويوضح كيف يتم استخدام حاسة اللمس بدلاً من البصر.</td>
+                        <td contenteditable="true">يقرأ النص ويتعرف على نظام برايل كطريقة للقراءة تعتمد على اللمس.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يكلف الطلبة بالبحث عن لغة الإشارة التي يستخدمها الصم للتواصل.</td>
+                        <td contenteditable="true">يبحث عن لغة الإشارة ويتعلم بعض الإشارات البسيطة.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">ينظم عرضاً لنتائج بحث الطلبة حول لغة الإشارة.</td>
+                        <td contenteditable="true">يعرض ما تعلمه عن لغة الإشارة لزملائه.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+    
+    <!-- الوحدة 4: مراجعة الوحدة -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">جسم الإنسان وصحته</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">مراجعة الوحدة (4)</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">دراسة جميع دروس الوحدة.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يتذكر الطالب المفاهيم والمصطلحات الرئيسية في الوحدة.</li>
+                            <li contenteditable="true">أن يجيب عن أسئلة متنوعة تقيس فهمه للوحدة.</li>
+                            <li contenteditable="true">أن يطبق ما تعلمه في أنشطة تقويم الأداء.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يقوم بمراجعة سريعة لأهم أفكار الوحدة: أهمية الحواس، والصحة الجسمية والنفسية.</td>
+                        <td contenteditable="true">يشارك في استذكار المفاهيم ويناقش طرق الحفاظ على الصحة.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير (التطبيق)</td>
+                        <td contenteditable="true">يوجه الطلبة لحل أسئلة المراجعة ومناقشة سؤال التفكير الناقد حول تناول الدواء.</td>
+                        <td contenteditable="true">يحل الأسئلة، ويشارك في مناقشة قضية تناول الدواء دون استشارة الطبيب.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يشرف على تنفيذ نشاط "تقويم الأداء: أنظم مناظرة".</td>
+                        <td contenteditable="true">يشارك في المناظرة حول تناول الدواء، ويدافع عن وجهة نظره بالأدلة.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يلخص نتائج المناظرة ويؤكد على السلوك الصحيح، ويقدم تغذية راجعة ختامية.</td>
+                        <td contenteditable="true">يستخلص العبر من المناظرة ويقيم تعلمه في الوحدة.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+    
+     <!-- الوحدة 5، الدرس 1 -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">المادة</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">خصائص المادة</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">يعرف أن الأشياء من حوله هي مواد.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                           <li contenteditable="true">أن يعرف المادة بأنها كل شيء له كتلة وحجم ويشغل حيزاً.</li>
+                           <li contenteditable="true">أن يوضح مفهوم الكتلة والحجم كخصائص فيزيائية للمادة.</li>
+                           <li contenteditable="true">أن يستخدم الأدوات المناسبة لقياس الكتلة (الميزان) والحجم (المخبار المدرج).</li>
+                           <li contenteditable="true">أن يقيس حجم جسم صلب غير منتظم بغمره في الماء.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يقود نشاط استكشف (ما الكتلة؟ وما الحجم؟) باستخدام كرات المعجون.</td>
+                        <td contenteditable="true">يقارن بين كرتي معجون من حيث الثقل والمكان الذي تشغله، ويستنتج اختلافهما في الكتلة والحجم.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير</td>
+                        <td contenteditable="true">يعرف المادة وخصائصها الفيزيائية، يوضح مفهوم الكتلة وأدوات قياسها، ومفهوم الحجم وطرق قياسه للمواد السائلة والصلبة.</td>
+                        <td contenteditable="true">يستوعب المفاهيم، ويتعرف على أدوات القياس، ويتعلم طريقة قياس حجم جسم صلب بالماء.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يوجه الطلبة لتنفيذ نشاط (قياس حجم جسم غير منتظم) باستخدام مسمار وملعقة.</td>
+                        <td contenteditable="true">يقيس حجم أجسام صلبة صغيرة باستخدام المخبار المدرج والماء.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يطرح أسئلة مراجعة الدرس وتمارين حسابية على قياس الحجم.</td>
+                        <td contenteditable="true">يجيب عن الأسئلة ويحل المسائل المتعلقة بحساب الحجم.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+    
+    <!-- الوحدة 5، الدرس 2 -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">المادة</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">تغيرات المادة</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">يذكر بعض التغيرات التي تحدث للمواد (ذوبان الثلج، احتراق الورق).</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يميز بين التغير الفيزيائي والتغير الكيميائي.</li>
+                            <li contenteditable="true">أن يصف التغير الفيزيائي بأنه تغير عكسي لا ينتج مواد جديدة.</li>
+                            <li contenteditable="true">أن يصف التغير الكيميائي بأنه تغير لا عكسي ينتج مواد جديدة.</li>
+                            <li contenteditable="true">أن يذكر دلائل حدوث التغير الكيميائي.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يعرض صوراً لتغيرات المادة (انصهار الجليد، تشكيل المعجون) ويثير النقاش حولها.</td>
+                        <td contenteditable="true">يصف التغيرات ويناقش ما إذا كانت المادة الأصلية قد تغيرت.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير</td>
+                        <td contenteditable="true">يشرح مفهوم التغيرات الفيزيائية والكيميائية، والفرق بين التغير العكسي واللاعكسي، ويذكر دلائل حدوث التغير الكيميائي.</td>
+                        <td contenteditable="true">يقارن بين نوعي التغيرات ويدون أمثلة ودلائل على كل نوع.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يوجه الطلبة لنشاط (كيف تتغير الشمعة؟) لملاحظة نوعي التغيرات معاً (فيزيائي وكيميائي).</td>
+                        <td contenteditable="true">يشعل شمعة ويلاحظ انصهار الشمع (فيزيائي) واحتراق الفتيل (كيميائي).</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يطرح أسئلة مراجعة الدرس ويطلب تصنيف مجموعة من التغيرات.</td>
+                        <td contenteditable="true">يجيب عن الأسئلة ويصنف تغيرات مثل (سلق البيض، قص الورق) إلى فيزيائية أو كيميائية.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+    
+    <!-- الوحدة 5: الإثراء والتوسع -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">المادة</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">الإثراء والتوسع: كيف يحدث التغير الكيميائي؟</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">يعرف مفهوم التغير الكيميائي وأحد دلائله (تصاعد غاز).</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يلاحظ أثر إضافة السكر إلى الخميرة والماء.</li>
+                            <li contenteditable="true">أن يستنتج أن تصاعد الفقاعات دليل على حدوث تغير كيميائي.</li>
+                            <li contenteditable="true">أن يطبق الطريقة العلمية في تنفيذ تجربة بسيطة.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يسأل الطلبة: ماذا يحدث عند إضافة الخميرة للعجين؟ لماذا تنتفخ العجينة؟</td>
+                        <td contenteditable="true">يشارك بخبراته حول صنع الخبز ويستنتج أن شيئاً ما (غاز) يجعلها تنتفخ.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير (التجربة)</td>
+                        <td contenteditable="true">يوجه الطلبة لتنفيذ خطوات التجربة (أعمل كالعلماء) خطوة بخطوة.</td>
+                        <td contenteditable="true">ينفذ التجربة، يلاحظ الفرق بين الخميرة في الماء فقط والخميرة بعد إضافة السكر.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يناقش نتائج التجربة، ويوضح أن الخميرة كائن حي يتغذى على السكر وينتج غازاً.</td>
+                        <td contenteditable="true">يسجل ملاحظاته ويستنتج أن تصاعد الفقاعات (الغاز) دليل على حدوث تغير كيميائي.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يطلب من الطلبة تفسير سبب استخدام الخميرة في صناعة المعجنات بناءً على نتائج التجربة.</td>
+                        <td contenteditable="true">يربط بين نتائج التجربة واستخدامات الخميرة في الحياة اليومية.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+
+    <!-- الوحدة 5: مراجعة الوحدة -->
+    <div class="a4-landscape">
+        <h1 class="text-3xl font-bold text-center mb-6">خطة الدرس</h1>
+        <div class="flex justify-between items-center mb-4 text-sm">
+            <div class="form-field" style="margin-left: 0;"><span class="form-label">المبحث:</span><span class="form-input" contenteditable="true">العلوم</span></div>
+            <div class="form-field"><span class="form-label">عنوان الوحدة:</span><span class="form-input" contenteditable="true">المادة</span></div>
+            <div class="form-field"><span class="form-label">موضوع الدرس:</span><span class="form-input" contenteditable="true">مراجعة الوحدة (5)</span></div>
+            <div class="form-field"><span class="form-label">عدد الحصص:</span><span class="form-input" contenteditable="true"></span></div>
+            <div class="form-field"><span class="form-label">التعلم القبلي:</span><span class="form-input" contenteditable="true">دراسة جميع دروس الوحدة.</span></div>
+        </div>
+        <div class="mb-4">
+            <table class="main-table">
+                <tr>
+                    <td>
+                        <div class="header-in-cell">النتاجات التعليمية</div>
+                        <ul class="list-disc pr-5 text-sm">
+                            <li contenteditable="true">أن يتذكر الطالب المفاهيم والمصطلحات الرئيسية في الوحدة.</li>
+                            <li contenteditable="true">أن يجيب عن أسئلة متنوعة تقيس فهمه للوحدة.</li>
+                            <li contenteditable="true">أن يطبق ما تعلمه في أنشطة تقويم الأداء.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mb-4">
+            <table class="main-table text-sm procedures-table">
+                <thead><tr><th>المراحل</th><th>دور المعلم</th><th>دور المتعلم</th><th>الزمن</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">1- التهيئة والاندماج</td>
+                        <td contenteditable="true">يقوم بمراجعة سريعة لأهم أفكار الوحدة: خصائص المادة (الكتلة والحجم)، والتغيرات الفيزيائية والكيميائية.</td>
+                        <td contenteditable="true">يشارك في استذكار المفاهيم والمقارنة بين أنواع التغيرات.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">2- الشرح والتفسير (التطبيق)</td>
+                        <td contenteditable="true">يوجه الطلبة لحل أسئلة المراجعة (المفاهيم، أجيب عن الأسئلة، الاختيار من متعدد).</td>
+                        <td contenteditable="true">يحل الأسئلة بشكل فردي ثم يشارك في مناقشة الإجابات وتصويبها.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">3- التوسع ودعم التعبير</td>
+                        <td contenteditable="true">يشرف على تنفيذ نشاط "تقويم الأداء" حول التغيرات الكيميائية المفيدة والضارة.</td>
+                        <td contenteditable="true">يبحث عن تغيرات كيميائية ويصمم لوحة جدارية توضح المفيد والضار منها.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">4- تأكيد التعلم</td>
+                        <td contenteditable="true">يناقش نتائج نشاط تقويم الأداء ويقدم تغذية راجعة ختامية حول أداء الطلبة في الوحدة.</td>
+                        <td contenteditable="true">يعرض لوحته على زملائه ويقيم تعلمه في الوحدة.</td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex gap-4 mb-4">
+            <div class="w-2/3"><table class="main-table text-xs h-full"><tbody><tr><td class="font-bold w-1/8">الصف/الشعبة</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">عدد الغياب/العدد الكلي</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">ترتيب الحصص</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr><tr><td class="font-bold">اليوم والتاريخ</td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr></tbody></table></div>
+            <div class="w-1/3"><table class="main-table h-full"><tr><td><div class="header-in-cell">التأمل الذاتي</div><div class="text-xs text-gray-600">(حول عمليتي التعلم والتعليم)</div><div contenteditable="true" class="h-16"></div></td></tr></table></div>
+        </div>
+        <div class="flex justify-around items-center text-xs mt-auto pt-4 border-t-2 border-dashed">
+            <span><span class="font-bold">المعلم:</span> ....................</span>
+            <span><span class="font-bold">أخصائي المبحث:</span> ....................</span>
+            <span><span class="font-bold">مدير المدرسة:</span> ....................</span>
+            <span><span class="font-bold">مستشار التطوير:</span> ....................</span>
+        </div>
+    </div>
+
+</body>
+</html>
+
